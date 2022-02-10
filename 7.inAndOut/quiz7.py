@@ -16,7 +16,6 @@ Quiz ) 당신의 회사에서는 매주 1회 작성해야 하는 보고서가 �
 # for index in range(1, 51) :
 #     with open(f"./7.inAndOut/report/{index}주차.txt", 'w', encoding='utf-8') as report_file : 
 #         report_file.write(f"- {index} 주차 주간보고 -\n부서 :\n이름 :\n업무 요약 :")
-#         report_file.close()
 
 # with문 없이 쓰는 문장
 # 참고로 .write() 함수는 print와 다르게 default 개행이 없습니다. 개행을 하고 싶다면 꼭 \n 작성 

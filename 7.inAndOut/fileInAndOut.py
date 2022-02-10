@@ -33,9 +33,10 @@
 # score_file.close()
 
 score_file = open("./7.inAndOut/score.txt", "r", encoding="utf8")
-lines = score_file.readlines() # 한 줄, 한 줄, list 형태로 저장한다.
+print(type(score_file))
+# lines = score_file.readlines() # 한 줄, 한 줄, list 형태로 저장한다.
 
-print(lines)
+# print(lines)
 
-for line in lines : 
-    print(line, end="")
+# for line in lines : 
+#     print(line, end="")
