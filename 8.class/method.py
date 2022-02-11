@@ -39,6 +39,7 @@ class AttackUnit :
 firebat = AttackUnit("파이어뱃", 50, 16)
 firebat.attack("5시")
 
+
 # 공격 2번 받는다고 가정한다. 
 firebat.damaged(25)
 firebat.damaged(25)

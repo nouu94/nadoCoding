@@ -10,4 +10,4 @@ class Unit :
 # marine1 = Unit("마린", 40, 5)
 # marine2 = Unit("마린", 40, 5)
 # tank = Unit("탱크", 150, 35)
-marine3 = Unit("마린", 40, 5)
+# marine1 = Unit("마린", 40, 5)
