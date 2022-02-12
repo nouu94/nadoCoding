@@ -29,7 +29,6 @@ while(True) :
                 .format(waiting, order))
             waiting += 1 
             chicken -= order
-
         if chicken == 0 : 
             raise SoldOutError
     except ValueError : 
